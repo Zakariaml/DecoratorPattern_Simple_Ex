@@ -11,7 +11,7 @@ public class main {
 		Beverage b = new Caramel(new Choclate(new Milk()));
 
 		System.out.println("The cost of your order is : "+b.cost()+"$");
-		System.out.println("Please change the first row if you want to change the cost");
+		System.out.println("Please change the first row in the main class if you want to change the cost");
 		
 	}
 
